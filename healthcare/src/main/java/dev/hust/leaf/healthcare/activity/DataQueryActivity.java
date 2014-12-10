@@ -296,7 +296,7 @@ public class DataQueryActivity extends SherlockActivity {
 						if (datas != null && datas.size() != 0)
 							displayDataList(datas);
 						else {
-							Toast.makeText(DataQueryActivity.this, "û������",
+							Toast.makeText(DataQueryActivity.this, "没有数据",
 									Toast.LENGTH_SHORT).show();
 							dataListDialog.removeFoot();
 						}
