@@ -20,6 +20,7 @@ public class ALoginTest extends ActivityInstrumentationTestCase2<LoginActivity> 
 		// setUp() is run before a test case is started.
 		// This is where the solo object is created.
 		solo = new Solo(getInstrumentation(), getActivity());
+		solo.unlockScreen();
 	}
 
 	@Override
